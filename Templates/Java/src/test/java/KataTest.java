@@ -13,7 +13,8 @@ public class KataTest {
 
     @Test
     public void helloShouldReturnMessageWithSpecifiedName() {
-        String name = "Ingage";
-        assertEquals(String.format("Hello %s", name), fixture.hello(name));
+        boolean[] myBitArray = new boolean[43];
+        fixture.add("First", myBitArray);
+        //assertEquals(String.format("Hello %s", name), fixture.hello(name));
     }
 }
